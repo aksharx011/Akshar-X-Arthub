@@ -73,7 +73,7 @@ body {
         background-image: linear-gradient(to right, #5335ef, #de005e, #f66e48,#de005e,#5335ef );
         background-clip: text;
         -webkit-text-fill-color: transparent;
-        animation: animate 10s linear 0s infinite , pos 5s linear 0s 1 reverse ;
+        animation: animate 10s linear 0s infinite , pos 2s linear 0s 1 reverse ;
         background-size: 400%;
         text-align: center;
     
