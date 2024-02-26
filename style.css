@@ -19,8 +19,10 @@
         
     }
     .mainbody {
-        background-image: linear-gradient(to right bottom, #feedfd, #f8ecfe, #f2eafe,
-        #ece9fe, #e5e8fd, #e1eafd, #deebfd, #dbedfc, #dcf1fc, #dff5fb, #e4f8fa, #e9fbfa);
+        background-image: linear-gradient(to left top, #a7c0ef, #b6bdec, #c4bbe7, #d0b9e1, #d9b8da, #d9b8da, #d9b8da, #d9b8da, #d0b9e1, #c4bbe7, #b6bdec, #a7c0ef);
+
+        /* background-image: linear-gradient(to right bottom, #feedfd, #f8ecfe, #f2eafe,
+        #ece9fe, #e5e8fd, #e1eafd, #deebfd, #dbedfc, #dcf1fc, #dff5fb, #e4f8fa, #e9fbfa); */
         height: 100%;
         width: 100%;
         box-sizing: border-box;
@@ -74,7 +76,7 @@
     .artgallery,
     .about,
     .contact {
-        color: #8b8a8f;
+        color: whitesmoke;
         margin-right: 20px;
         text-decoration: none;
         font-size: 20px;
@@ -83,9 +85,9 @@
         width: fit-content;
     }
     .viewplans {
-        color:#8b8a8f;
+        color:whitesmoke;
         box-sizing: border-box;
-        border: 1px solid #8b8a8f;
+        border: 1px solid whitesmoke;
         padding: 7px 10px;
         border-radius: 5px;
         text-decoration: none;
@@ -244,13 +246,13 @@
         display: inline-block;
         font-size: 20px;
         line-height: 30px;
-        color:rgb(116, 110, 110);
+        color:rgb(80, 77, 77);
         font-weight: 500;
     }
     .know-more {
         box-sizing: border-box;
-        color: gray;
-        border: solid gray 2px;
+        color: rgb(80, 77, 77);
+        border: solid rgb(80, 77, 77) 2px;
         width:fit-content;
         border-radius: 5px;
         display:block;
@@ -265,7 +267,7 @@
     /* hover effect on know more */
     .know-more:hover {
         color: crimson;
-        border: solid #2D2640 2px;
+        border: solid rgb(80, 77, 77) 2px;
     }
     
     /* offerings */
@@ -321,7 +323,7 @@
         color: #0b1c36;
     }
     .section3-container-content {
-        color: rgb(76, 73, 73);
+        color: rgb(80, 77, 77);
         line-height: 25px;
         margin-top: 10px;
         font-size: 20px;
@@ -426,7 +428,7 @@
     .bottom-navigation-contact,
     .bottom-navigation-work
         {
-        color: #8b8a8f;
+        color: rgb(80, 77, 77);
         text-decoration: none;
     }
     /* on hover bottom navigation */
@@ -464,8 +466,11 @@
         margin: 0 auto;
     }
     .mainbody {
+        background-image: linear-gradient(to left top, #a7c0ef, #b6bdec, #c4bbe7, #d0b9e1, #d9b8da, #d9b8da, #d9b8da, #d9b8da, #d0b9e1, #c4bbe7, #b6bdec, #a7c0ef);
+        /*
         background-image: linear-gradient(to right bottom, #feedfd, #f8ecfe, #f2eafe,
         #ece9fe, #e5e8fd, #e1eafd, #deebfd, #dbedfc, #dcf1fc, #dff5fb, #e4f8fa, #e9fbfa);
+        */
         height: 100%;
         width:100%;
         box-sizing: border-box;
@@ -527,7 +532,7 @@
     .about,
     .contact {
         box-sizing: border-box;
-        color: #8b8a8f;
+        color: whitesmoke;
         text-decoration: none;
         font-size: 11px;
         transition: all 0.1s;
@@ -538,7 +543,7 @@
     } 
     .viewplans {
         border:none;
-        color:#8b8a8f;
+        color:whitesmoke;
         box-sizing: border-box;
         padding:0;
         border-radius:0;
@@ -612,8 +617,8 @@
     .cards {
         box-sizing: border-box;
         display: inline-block;
-        color: rgb(210, 204, 204);
-        border: solid white 1px;
+        color: whitesmoke;
+        border: solid whitesmoke 1px;
         padding: 5px 5px;
         margin-top: 10px;
         margin-left: 10px;
@@ -702,13 +707,13 @@
         display: inline-block;
         font-size: 10px;
         line-height: 12px;
-        color:rgb(116, 110, 110);
+        color:rgb(80, 77, 77);
         font-weight: 500;
     }
     .know-more {
         box-sizing: border-box;
-        color: gray;
-        border: solid gray 1px;
+        color: rgb(80, 77, 77);
+        border: solid rgb(80, 77, 77) 1px;
         width:fit-content;
         border-radius: 5px;
         display:block;
@@ -735,11 +740,12 @@
         box-shadow: 0 0 5px 0.1px ;
         height: 380px;
         background-color: white;
+        background-image: linear-gradient(to right bottom, #e6a5ca, #d9add9, #c9b5e3, #bbbde8, #b0c4e9);
     }
     
     /* we are different */
     .section3-heading {
-        font-size: 20px;
+        font-size: 25px;
         font-family:"Lucida Handwriting",cursive;
         margin-bottom: 10px;
         margin-left: 10px;
@@ -769,6 +775,7 @@
         align-content: center;
         max-height: 1000px;
         gap: 15px;
+        
     }
     .section3-container
         {
@@ -780,6 +787,7 @@
         display: inline-block;
         padding:5px;
         box-shadow:0 0 5px 0.05px;
+        background-image: linear-gradient(to right bottom, #d16ba5, #c37bbf, #b08bd3, #9a9ae1, #86a8e7);
 
     }
     
@@ -791,7 +799,7 @@
         color: #0b1c36;
     }
     .section3-container-content {
-        color: rgb(76, 73, 73);
+        color: rgb(80, 77, 77);
         line-height:15px;
         margin-top: 10px;
         font-size: 13px;
@@ -896,7 +904,7 @@
     .bottom-navigation-contact,
     .bottom-navigation-work
         {
-        color: #8b8a8f;
+        color: rgb(80, 77, 77);
         text-decoration: none;
     }
     /* on hover bottom navigation */
