@@ -303,7 +303,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-content: start;
-        max-height: 950px;
+        max-height: 800px;
     }
     .section3-container
         {
@@ -733,13 +733,16 @@
     
     /* offerings */
     .section3 {
+        
         display:block;
         margin: 15px 10px  ;
         box-sizing: border-box;
         /* border: solid black 2px; */
         box-shadow: 0 0 5px 0.1px ;
-        height: 380px;
+        min-height: 380px;
+        max-height: 500px;
         background-color: white;
+        
         background-image: linear-gradient(to right bottom, #e6a5ca, #d9add9, #c9b5e3, #bbbde8, #b0c4e9);
     }
     
@@ -773,7 +776,7 @@
         flex-direction: column;
         justify-content:center;
         align-content: center;
-        max-height: 1000px;
+        max-height: 450px;
         gap: 15px;
         
     }
