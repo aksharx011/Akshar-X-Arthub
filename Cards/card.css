@@ -187,7 +187,7 @@ html,body {
         /* margin-left: 26px;  */
     }
     .box1 {
-        height:25rem;
+        height:25.5rem;
         width: 18rem;
         display: flex;
         flex-direction: column;
@@ -318,7 +318,7 @@ html,body {
     .cancel {
         margin-top:12px;
         font-size: 15px;
-        font-weight: 500;
+        font-weight: 400;
         font-family: "Teko", sans-serif;
     }
     .cancel:hover {
